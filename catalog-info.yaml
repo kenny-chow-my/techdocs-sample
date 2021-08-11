@@ -5,6 +5,7 @@ metadata:
   description: An example techdocs of a Backstage application.
   annotations:
     github.com/project-slug: kenny-chow-my/techdocs-sample
+    backstage.io/techdocs-ref: url:https://github.com/kenny-chow-my/techdocs-sample
 spec:
   type: docs
   owner: kenny-chow-my
