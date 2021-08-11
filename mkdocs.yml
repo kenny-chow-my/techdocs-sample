@@ -1,0 +1,17 @@
+# This template will help you configure the mkdocs.yml file so that you can preview your changes locally and Helix can build and publish your techdocs. Unless otherwise stated, you should modify the placeholder values for each variable before using this template.
+site_name: "Example Service Docs" # Name of your site
+repo_url: https://github.com/kenny-chow-my/techdocs-sample
+edit_uri: docs  # Folder that hosts your documentation files, default is docs. Allows the edit button on each page to link to the corresponding page in this folder.
+
+nav: # The tree structure for your documentation set. Shows on the left side of the page.
+  - Home: index.md # Cannot be edited. Allows the bottom navigation arrows to be displayed.
+  - 'Getting Started': 'getting-started.md'
+  - 'Local Development': 'local-development.md'
+
+# This section should not be edited. You need to install the techdocs-core plugin in order to run mkdocs locally. 
+plugins:
+  - techdocs-core
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
