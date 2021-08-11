@@ -7,6 +7,6 @@ metadata:
     github.com/project-slug: kenny-chow-my/techdocs-sample
     backstage.io/techdocs-ref: url:https://github.com/kenny-chow-my/techdocs-sample
 spec:
-  type: documentation
+  type: Documentation
   owner: kenny-chow-my
   lifecycle: production
