@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example-service-docs
+  name: example-techdocs
   description: An example techdocs of a Backstage application.
   annotations:
     github.com/project-slug: kenny-chow-my/techdocs-sample
     backstage.io/techdocs-ref: url:https://github.com/kenny-chow-my/techdocs-sample
 spec:
-  type: docs
+  type: documentation
   owner: kenny-chow-my
-  lifecycle: experimental
+  lifecycle: production
